@@ -24,16 +24,19 @@ The model is trained on a dataset of Irish folk songs and learns to generate new
 
 The model consists of the following layers:
 
+```
 Embedding Layer (vocab_size → embedding_dim)
         ↓
 LSTM Layer (embedding_dim → hidden_size)
         ↓
 Fully Connected Layer (hidden_size → vocab_size)
+```
 
 ---
 
 ## 🔄 Workflow
 
+```
 Music Dataset (ABC notation)
         ↓
 Convert characters → integers (vectorization)
@@ -49,7 +52,9 @@ Predict next character
 Train using teacher forcing
         ↓
 Generate new music
+```
 
+---
 
 ## 📊 Training Details
 
@@ -71,12 +76,14 @@ The significant decrease in loss indicates that the model successfully learned p
 
 ## 🎼 Sample Generated Output
 
+```
 X:1
 T:Generated Tune
 M:4/4
 K:D
 A2 AB d2 AF | G2 FE D4 |
 FA AB d2 AF | G2 FE D4 |
+```
 
 ---
 
@@ -115,12 +122,15 @@ This project demonstrates the core idea behind modern generative models used in:
 
 1. Clone the repository:
 
+```
 git clone https://github.com/your-username/AI-Music-Generation-RNN.git
-
+```
 
 2. Open the notebook:
 
+```
 music-generation-rnn.ipynb
+```
 
 3. Run all cells (preferably with GPU enabled).
 
