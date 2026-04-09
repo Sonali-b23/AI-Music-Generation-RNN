@@ -1,12 +1,10 @@
 # 🎵 Music Generation using RNN (LSTM)
-
 ## 🚀 Overview
 
 This project implements a **Recurrent Neural Network (RNN) using Long Short-Term Memory (LSTM)** to generate music in **ABC notation**.
 The model is trained on a dataset of Irish folk songs and learns to generate new music by predicting the **next character in a sequence**.
 
 ---
-
 ## 🧠 Key Concepts
 
 * Recurrent Neural Networks (RNN)
@@ -19,7 +17,6 @@ The model is trained on a dataset of Irish folk songs and learns to generate new
 * Generative AI
 
 ---
-
 ## ⚙️ Model Architecture
 
 The model consists of the following layers:
@@ -33,7 +30,6 @@ Fully Connected Layer (hidden_size → vocab_size)
 ```
 
 ---
-
 ## 🔄 Workflow
 
 ```
@@ -106,7 +102,6 @@ FA AB d2 AF | G2 FE D4 |
 * Explored generative AI concepts through music generation
 
 ---
-
 ## 💡 Applications
 
 This project demonstrates the core idea behind modern generative models used in:
@@ -117,7 +112,6 @@ This project demonstrates the core idea behind modern generative models used in:
 * Speech modeling
 
 ---
-
 ## ▶️ How to Run
 
 1. Clone the repository:
@@ -142,7 +136,6 @@ This project showcases how **LSTM-based neural networks can learn patterns in se
 It highlights the power of deep learning in creative domains such as music generation and forms a foundation for understanding modern generative AI systems.
 
 ---
-
 ## ⭐ Acknowledgements
 
 * MIT Introduction to Deep Learning (6.S191)
